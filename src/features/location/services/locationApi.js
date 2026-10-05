@@ -1,8 +1,8 @@
 const NOMINATIM_BASE_URL =
-  "https://nominatim.openstreetmap.org";
+  import.meta.env.VITE_NOMINATIM_BASE_URL;
 
 const TIMEZONE_API_URL =
-  "https://timeapi.io/api/Time/current/coordinate";
+  import.meta.env.VITE_TIMEZONE_API_URL;
 
 
 // Search location
